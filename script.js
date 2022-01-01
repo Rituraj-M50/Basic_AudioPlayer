@@ -23,8 +23,8 @@ window.addEventListener("load", ()=>{
 function loadMusic(indexNumb){
   musicName.innerText = allMusic[indexNumb - 1].name;
   musicArtist.innerText = allMusic[indexNumb - 1].artist;
-  musicImg.src = `/test_music/images/${allMusic[indexNumb - 1].src}.jpg`;
-  mainAudio.src = `/test_music/songs/${allMusic[indexNumb - 1].src}.mp3`;
+  musicImg.src = `/Basic_AudioPlayer/images/${allMusic[indexNumb - 1].src}.jpg`;
+  mainAudio.src = `/Basic_AudioPlayer/songs/${allMusic[indexNumb - 1].src}.mp3`;
 }
 
 //play music function
